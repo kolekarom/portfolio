@@ -113,7 +113,7 @@ export const Header = ({
           <ThemeToggle />
         </div>
       </div>
-      {/* <div className="header-mobile">
+      <div className="header-mobile">
         <header>
           <input id="burger" type="checkbox" />
 
@@ -199,7 +199,7 @@ export const Header = ({
             </ul>
           </nav>
         </header>
-      </div> */}
+      </div>
     </>
   );
 };

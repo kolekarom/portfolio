@@ -30,7 +30,7 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
           <p className="hero-profile-tagline">
             What I excel at is creating software, websites, apps, and writing.
           </p>
-          {/* <a
+          <a
             href="https://limey.io/andrewbaisden"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,7 +41,7 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             }
           >
             Find me on social media
-          </a> */}
+          </a>
         </div>
       </div>
     </>
