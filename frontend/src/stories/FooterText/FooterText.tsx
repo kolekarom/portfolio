@@ -18,18 +18,18 @@ export const FooterText = ({ ...props }: FooterTextProps) => {
     <>
       <div className="footer-text">
         <div>
-          <a href="https://www.1stformations.co.uk/" target="/">
+          {/* <a href="https://www.1stformations.co.uk/" target="/">
             <img
               src={firstFormationsLogo}
               alt="First Formations Logo"
               width={150}
               style={{ marginBottom: '1rem' }}
             />
-          </a>
+          </a> */}
         </div>
         <p>
           This website was designed in&nbsp;
-          <a
+          {/* <a
             href="https://www.figma.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,7 +40,7 @@ export const FooterText = ({ ...props }: FooterTextProps) => {
             }
           >
             Figma
-          </a>
+          </a> */}
           &nbsp;and built using&nbsp;
           <a
             href="https://reactjs.org/"
@@ -54,10 +54,10 @@ export const FooterText = ({ ...props }: FooterTextProps) => {
           >
             React
           </a>
-          &nbsp;by Andrew Baisden.
+          &nbsp;by Om Kolekar
         </p>
         <p>
-          All Rights Reserved &reg; Copyright &copy; {currYear} Andrew Baisden.
+          All Rights Reserved &reg; Copyright &copy; {currYear} Om Kolekar.
         </p>
       </div>
     </>

@@ -1,5 +1,5 @@
 import Typewriter from 'typewriter-effect';
-import profilePictureHero from '../../img/profile-picture.png';
+import profilePictureHero from '../../img/profilePictureHero.jpeg';
 import './HeroProfile.css';
 
 import { useTheme } from '../../context/ThemeContext';
@@ -14,14 +14,14 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
         <div className="hero-profile">
           <img src={profilePictureHero} alt="Andrew Baisden Profile" />
           <p>Hey there I'm,</p>
-          <h1>Andrew Baisden</h1>
+          <h1>Om Kolekar</h1>
           <Typewriter
             options={{
               strings: [
                 'Software Developer',
-                'Technical Writer',
+                
                 'Content Creator',
-                'Gamer',
+                'BodyBuilder',
               ],
               autoStart: true,
               loop: true,
@@ -30,7 +30,7 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
           <p className="hero-profile-tagline">
             What I excel at is creating software, websites, apps, and writing.
           </p>
-          <a
+          {/* <a
             href="https://limey.io/andrewbaisden"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,7 +41,7 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             }
           >
             Find me on social media
-          </a>
+          </a> */}
         </div>
       </div>
     </>
