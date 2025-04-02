@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutProfileImage.css';
-
+//
 interface AboutProfileImageProps {}
 
 export const AboutProfileImage = ({ ...props }: AboutProfileImageProps) => {
