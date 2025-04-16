@@ -40,7 +40,7 @@ export const Header = ({
                 handleScroll(homeRef.current);
               }}
             >
-              <img src={Logo} alt="Andrew Baisden Logo" />
+              <img src={Logo} alt="Om Kolekar Logo" />
             </a>
           </div>
           <div className="navigation">
@@ -79,7 +79,25 @@ export const Header = ({
                   handleScroll(skillsRef.current);
                 }}
               >
+                Projects
+              </a>
+              <a
+                href="#skills"
+                rel="noopener noreferrer"
+                onClick={() => {
+                  handleScroll(skillsRef.current);
+                }}
+              >
                 Skills
+              </a>
+              <a
+                href="#skills"
+                rel="noopener noreferrer"
+                onClick={() => {
+                  handleScroll(skillsRef.current);
+                }}
+              >
+                Projects
               </a>
               <a
                 href="#contact"
@@ -106,7 +124,7 @@ export const Header = ({
               handleScroll(homeRef.current);
             }}
           >
-            <img src={Logo} alt="Andrew Baisden Logo" />
+            <img src={Logo} alt="Om Kolekar Logo" />
           </a>
         </div>
         <div>
@@ -132,7 +150,7 @@ export const Header = ({
                   handleScroll(homeRef.current);
                 }}
               >
-                <img src={Logo} alt="Andrew Baisden Logo" />
+                <img src={Logo} alt="Om Kolekar Logo" />
               </a>
             </div>
             <ul>
