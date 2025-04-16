@@ -19,9 +19,9 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             options={{
               strings: [
                 'Software Developer',
-                
                 'Content Creator',
                 'BodyBuilder',
+                'fitness Enthusiast',
               ],
               autoStart: true,
               loop: true,
@@ -31,7 +31,8 @@ export const HeroProfile = ({ ...props }: HeroProfileprops) => {
             What I excel at is creating software, websites, apps, and writing.
           </p>
           <a
-            href="https://limey.io/andrewbaisden"
+            href="https://www.instagram.com/ven_om____/
+"
             target="_blank"
             rel="noopener noreferrer"
             className={

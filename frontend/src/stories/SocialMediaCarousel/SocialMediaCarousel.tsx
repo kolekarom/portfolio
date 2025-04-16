@@ -4,10 +4,6 @@ import './SocialMediaCarousel.css';
 import XIcon from '../../img/x-social-media-icon.svg';
 import LinkedInIcon from '../../img/linkedin-icon.svg';
 import InstagramIconPersonal from '../../img/instagram-personal-icon.svg';
-import InstagramIconDeveloper from '../../img/instagram-developer-icon.svg';
-import DevIcon from '../../img/dev-icon.svg';
-import HashnodeIcon from '../../img/hashnode-icon.svg';
-import MediumIcon from '../../img/medium-icon.svg';
 import GitHubIcon from '../../img/github-icon.svg';
 
 import { useTheme } from '../../context/ThemeContext';
@@ -52,7 +48,7 @@ export const SocialMediaCarousel = ({ ...props }: SocialMediaCarouselProps) => {
               creation, writing tips and so much more.
             </p>
             <a
-              href="https://twitter.com/andrewbaisden"
+              href="https://twitter.com/omkolekar"
               rel="noopener noreferrer"
               target="_blank"
               className={
@@ -107,7 +103,7 @@ export const SocialMediaCarousel = ({ ...props }: SocialMediaCarouselProps) => {
               connections open up so many career doors.
             </p>
             <a
-              href="https://www.linkedin.com/in/andrew-baisden/"
+              href="https://www.linkedin.com/in/omkolekar/"
               rel="noopener noreferrer"
               target="_blank"
               className={
@@ -157,7 +153,7 @@ export const SocialMediaCarousel = ({ ...props }: SocialMediaCarouselProps) => {
               life and fun related. See what i’m up to.
             </p>
             <a
-              href="https://www.instagram.com/andrewbaisden/"
+              href="https://www.instagram.com/ven_om____/"
               rel="noopener noreferrer"
               target="_blank"
               className={
@@ -278,19 +274,19 @@ export const SocialMediaCarousel = ({ ...props }: SocialMediaCarouselProps) => {
           }
         >
           <img
-            className="social-media-carousel-slide-logo"
-            src={InstagramIconDeveloper}
-            alt="Instagram"
+            className="social-media-carousel-slide-icon"
+            src={GitHubIcon}
+            alt="GitHub"
           />
           <div className="social-media-carousel-slide-content">
-            <h1>Instagram Developer</h1>
+            <h1>GitHub</h1>
 
             <p>
-              A developers life is more than just coding. We obsess over tech,
-              developer setups and anything that gets us excited!
+              Check out my open source projects and contributions on GitHub.
+              Follow my coding journey and explore my repositories!
             </p>
             <a
-              href="https://www.instagram.com/andrewbaisden_tech/"
+              href="https://github.com/kolekarom"
               rel="noopener noreferrer"
               target="_blank"
               className={
@@ -707,276 +703,11 @@ export const SocialMediaCarousel = ({ ...props }: SocialMediaCarouselProps) => {
         </div>
         {/* Carousel Slide 4 */}
 
-        {/* Carousel Slide 5 */}
-        <div
-          className={
-            activeTheme === 'light'
-              ? 'social-media-carousel-slide-light-theme'
-              : 'social-media-carousel-slide-dark-theme'
-          }
-        >
-          <img
-            className="social-media-carousel-slide-logo"
-            src={DevIcon}
-            alt="DEV"
-          />
-          <div className="social-media-carousel-slide-content">
-            <h1>DEV</h1>
 
-            <p>
-              I have been writing on DEV since 2020 and have grown a great
-              following. Usually I write about programming, career development,
-              personal progression and tons of other interesting topics.
-            </p>
-            <a
-              href="https://dev.to/andrewbaisden"
-              rel="noopener noreferrer"
-              target="_blank"
-              className={
-                activeTheme === 'light'
-                  ? 'carousel-button-light-theme'
-                  : 'carousel-button-dark-theme'
-              }
-            >
-              View Profile
-            </a>
-          </div>
-          <div className="social-media-carousel-slide-graphic">
-            <svg
-              width="100"
-              height="100"
-              viewBox="0 0 171 171"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M26.1252 40.8894H112.739C114.841 40.8894 116.545 39.1857 116.545 37.0831C116.545 34.9805 114.841 33.2769 112.739 33.2769H26.1252C24.0231 33.2769 22.3189 34.9805 22.3189 37.0831C22.3189 39.1857 24.0231 40.8894 26.1252 40.8894Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M26.1252 57.304H122.212C124.315 57.304 126.019 55.6004 126.019 53.4978C126.019 51.3952 124.315 49.6915 122.212 49.6915H26.1252C24.0231 49.6915 22.3189 51.3952 22.3189 53.4978C22.3189 55.6004 24.0231 57.304 26.1252 57.304Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M164.747 61.4345C159.703 56.391 151.603 56.2235 146.354 60.9301V3.80626C146.354 1.70368 144.651 0 142.548 0H6.14534C4.04327 0 2.33908 1.70368 2.33908 3.80626V167.194C2.33908 169.296 4.04327 171 6.14534 171H142.547C144.65 171 146.354 169.296 146.354 167.194V98.7547L164.684 80.4242C164.694 80.4141 164.702 80.4034 164.712 80.3938C164.723 80.3826 164.736 80.373 164.747 80.3618C169.965 75.1432 169.965 66.6527 164.747 61.4345ZM9.9516 163.387V7.61252H138.741V68.5127L124.181 83.0734C123.606 82.7242 122.934 82.5202 122.212 82.5202H26.1252C24.0231 82.5202 22.3189 84.2239 22.3189 86.3265C22.3189 88.429 24.0231 90.1327 26.1252 90.1327H117.121L108.319 98.9348H26.1252C24.0231 98.9348 22.3189 100.639 22.3189 102.741C22.3189 104.844 24.0231 106.547 26.1252 106.547H100.707L91.9044 115.349H26.1252C24.0231 115.349 22.3189 117.053 22.3189 119.156C22.3189 121.258 24.0231 122.962 26.1252 122.962H84.2924L77.2904 129.964C77.1874 130.067 77.0935 130.175 77.0047 130.286C76.9818 130.316 76.961 130.347 76.9387 130.377C76.8732 130.464 76.8108 130.553 76.754 130.644C76.7327 130.678 76.7124 130.714 76.6921 130.749C76.6367 130.843 76.5865 130.94 76.5398 131.038C76.5302 131.059 76.518 131.077 76.5084 131.098L75.8862 132.486C75.2599 132.033 74.4926 131.764 73.6613 131.764H26.1252C24.0231 131.764 22.3189 133.467 22.3189 135.57C22.3189 137.672 24.0231 139.376 26.1252 139.376H72.7975L67.8966 150.307C67.8088 150.504 67.7418 150.705 67.689 150.908C66.6948 153.023 67.0638 155.626 68.8085 157.371C69.886 158.448 71.3181 159.042 72.8427 159.042C73.708 159.042 74.5408 158.844 75.299 158.481C75.4928 158.429 75.6852 158.367 75.8719 158.283L95.0824 149.672C95.1022 149.663 95.1199 149.651 95.1392 149.641C95.2397 149.595 95.3387 149.543 95.4351 149.486C95.4686 149.467 95.5021 149.448 95.5346 149.428C95.6295 149.369 95.7213 149.305 95.8117 149.237C95.8381 149.217 95.866 149.198 95.8924 149.177C96.0045 149.088 96.1136 148.994 96.2172 148.89L138.741 106.366V163.387H9.9516ZM86.9284 144.985L76.9971 149.437C76.9555 149.393 76.9189 149.346 76.8763 149.303C76.8337 149.261 76.7875 149.224 76.7438 149.183L81.1961 139.253L86.9284 144.985ZM93.5259 140.817L85.3648 132.656L148.449 69.5713L156.61 77.7324L93.5259 140.817ZM161.029 71.3846L154.798 65.1535C156.433 65.016 158.116 65.5686 159.365 66.8176C160.613 68.0661 161.166 69.7494 161.029 71.3846Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M26.1252 73.7186H107.325C109.428 73.7186 111.132 72.0149 111.132 69.9123C111.132 67.8098 109.428 66.1061 107.325 66.1061H26.1252C24.0231 66.1061 22.3189 67.8098 22.3189 69.9123C22.3189 72.0149 24.0231 73.7186 26.1252 73.7186Z"
-                fill="#EDF2FA"
-              />
-            </svg>
-          </div>
-        </div>
-        {/* Carousel Slide 5 */}
 
-        {/* Carousel Slide 6 */}
-        <div
-          className={
-            activeTheme === 'light'
-              ? 'social-media-carousel-slide-light-theme'
-              : 'social-media-carousel-slide-dark-theme'
-          }
-        >
-          <img
-            className="social-media-carousel-slide-logo"
-            src={HashnodeIcon}
-            alt="Hashnode"
-          />
-          <div className="social-media-carousel-slide-content">
-            <h1>Hashnode</h1>
 
-            <p>
-              The Hashnode community is very diverse and has many great content
-              creators. I started writing on there in 2020 and I cross post my
-              content to my other blogs.
-            </p>
-            <a
-              href="https://hashnode.com/@andrewbaisden"
-              rel="noopener noreferrer"
-              target="_blank"
-              className={
-                activeTheme === 'light'
-                  ? 'carousel-button-light-theme'
-                  : 'carousel-button-dark-theme'
-              }
-            >
-              View Profile
-            </a>
-          </div>
-          <div className="social-media-carousel-slide-graphic">
-            <svg
-              width="100"
-              height="100"
-              viewBox="0 0 171 171"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M167.17 31.7762C164.7 29.3059 161.411 27.9451 157.91 27.9451C154.409 27.9451 151.121 29.3055 148.65 31.7758L139.793 40.6329L131.741 48.6842C131.741 48.6842 131.741 48.6842 131.741 48.6846C131.741 48.685 131.741 48.685 131.741 48.685L74.191 106.236C74.1112 106.315 74.0384 106.4 73.97 106.486C73.9526 106.509 73.9366 106.532 73.9196 106.555C73.8679 106.624 73.8197 106.695 73.7749 106.768C73.7673 106.78 73.7579 106.792 73.7506 106.804L56.9838 135.281C55.4378 137.142 55.5365 139.919 57.2814 141.665C58.1776 142.561 59.3691 143.054 60.6365 143.054C61.7559 143.054 62.8164 142.669 63.6663 141.961L92.1421 125.195C92.1557 125.187 92.1675 125.177 92.1808 125.169C92.2522 125.125 92.3216 125.078 92.39 125.027C92.4135 125.01 92.4374 124.994 92.4602 124.976C92.5467 124.907 92.631 124.835 92.7107 124.755L150.26 67.2059H150.26C150.261 67.2055 150.261 67.2055 150.261 67.2051L167.17 50.2959C172.276 45.1902 172.276 36.8823 167.17 31.7762ZM148.248 61.1664L137.78 50.6983L141.806 46.6724L152.274 57.1401L148.248 61.1664ZM90.6982 118.716L80.2305 108.248L133.754 54.7245L144.222 65.1922L90.6982 118.716ZM74.2589 129.118L69.8288 124.688L76.7918 112.862L86.0847 122.155L74.2589 129.118ZM63.4856 135.461L66.8449 129.755L69.1911 132.102L63.4856 135.461ZM163.144 46.2701L156.3 53.1143L145.832 42.6466L152.676 35.8024C154.072 34.4074 155.93 33.6392 157.911 33.6392C159.891 33.6392 161.749 34.4074 163.144 35.8024C164.54 37.1973 165.307 39.0562 165.307 41.0364C165.307 43.0167 164.54 44.8751 163.144 46.2701Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M41.4365 135.273C39.7622 135.273 38.3999 136.635 38.3999 138.31C38.3999 139.984 39.7622 141.346 41.4365 141.346C43.1109 141.346 44.4732 139.984 44.4732 138.31C44.4732 136.635 43.1109 135.273 41.4365 135.273Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M22.2366 135.273C20.5623 135.273 19.2 136.635 19.2 138.31C19.2 139.984 20.5623 141.346 22.2366 141.346C23.9109 141.346 25.2732 139.984 25.2732 138.31C25.2732 136.635 23.9109 135.273 22.2366 135.273Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M3.03665 135.273C1.36232 135.273 0 136.635 0 138.31C0 139.984 1.36232 141.346 3.03665 141.346C4.71098 141.346 6.07329 139.984 6.07329 138.31C6.07329 136.635 4.71098 135.273 3.03665 135.273Z"
-                fill="#EDF2FA"
-              />
-            </svg>
-          </div>
-        </div>
-        {/* Carousel Slide 6 */}
 
-        {/* Carousel Slide 7 */}
-        <div
-          className={
-            activeTheme === 'light'
-              ? 'social-media-carousel-slide-light-theme'
-              : 'social-media-carousel-slide-dark-theme'
-          }
-        >
-          <img
-            className="social-media-carousel-slide-logo"
-            src={MediumIcon}
-            alt="Medium"
-          />
-          <div className="social-media-carousel-slide-content">
-            <h1>Medium</h1>
 
-            <p>
-              Medium is one of the best platforms for finding publications. Some
-              of them average around 1 million user views in a month so its a
-              really good place to post your articles.
-            </p>
-            <a
-              href="https://andrewbaisden.medium.com/"
-              rel="noopener noreferrer"
-              target="_blank"
-              className={
-                activeTheme === 'light'
-                  ? 'carousel-button-light-theme'
-                  : 'carousel-button-dark-theme'
-              }
-            >
-              View Profile
-            </a>
-          </div>
-          <div className="social-media-carousel-slide-graphic">
-            <svg
-              width="100"
-              height="100"
-              viewBox="0 0 171 171"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M169.602 92.5579H81.2083C80.4366 92.5579 79.8105 93.1835 79.8105 93.9556V106.755C79.8105 107.527 80.4362 108.153 81.2083 108.153H94.8994V157.818C94.8994 159.94 96.6198 161.66 98.7414 161.66C100.863 161.66 102.583 159.94 102.583 157.818V108.153H148.227V157.818C148.227 159.94 149.947 161.66 152.069 161.66C154.19 161.66 155.911 159.94 155.911 157.818V108.153H169.602C170.374 108.153 171 107.527 171 106.755V93.9552C171 93.1835 170.374 92.5579 169.602 92.5579Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M60.3738 40.0768C68.8605 40.0768 75.7404 33.1969 75.7404 24.7102C75.7404 16.2235 68.8605 9.34363 60.3738 9.34363C51.8871 9.34363 45.0072 16.2235 45.0072 24.7102C45.0072 33.1969 51.8871 40.0768 60.3738 40.0768Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M66.1934 100.226C68.6725 101.02 70.639 102.925 71.5129 105.377L87.5921 150.499C89.1412 154.845 86.8736 159.624 82.5272 161.173C81.6001 161.504 80.6536 161.66 79.7228 161.66C76.2894 161.66 73.0716 159.528 71.8531 156.108L59.4255 121.233H41.4697V144.041L54.6999 154.842C56.3438 156.184 56.5884 158.604 55.2464 160.248C54.4869 161.178 53.3821 161.66 52.268 161.66C51.4138 161.66 50.5543 161.377 49.8406 160.795L41.4697 153.961V157.818C41.4697 159.94 39.7493 161.66 37.6278 161.66C35.5063 161.66 33.7859 159.94 33.7859 157.818V153.961L25.4147 160.795C23.7701 162.136 21.3505 161.892 20.0085 160.248C18.6669 158.604 18.9115 156.184 20.5553 154.842L33.7863 144.041V121.233H13.6729C10.8674 121.233 8.49982 119.146 8.14741 116.363L0.0449816 52.3855C-0.341627 49.3339 1.81855 46.5469 4.87053 46.1603C7.92176 45.773 10.7091 47.9343 11.0957 50.9859L18.581 110.093H22.5642C20.5598 107.96 19.7698 105.034 20.3345 102.257L30.5722 51.8974C31.1491 49.061 32.8837 46.5938 35.358 45.092C37.8323 43.5901 40.8214 43.189 43.6039 43.9864L60.5842 48.8513C66.0952 50.4301 69.2833 56.178 67.7041 61.6894L67.2283 63.4462L52.0989 52.1966L66.3785 70.3721L89.162 68.5595C93.4626 68.6388 97.5726 71.0174 97.8778 74.85C98.0592 77.1306 97.1146 79.2358 95.5169 80.6362L63.7622 84.5487C61.4299 84.7335 59.1716 83.7383 57.7355 81.9097L41.1497 60.7987L52.032 86.3907C53.2661 89.2809 55.9137 91.3913 59.0437 91.9188L57.4653 97.428L66.1934 100.226Z"
-                fill="#EDF2FA"
-              />
-              <rect
-                x="84.7934"
-                y="90.4463"
-                width="28.2645"
-                height="2.82645"
-                fill="#EDF2FA"
-              />
-              <rect
-                x="120.06"
-                y="65.7175"
-                width="28.2645"
-                height="2.82645"
-                transform="rotate(104.532 120.06 65.7175)"
-                fill="#EDF2FA"
-              />
-            </svg>
-          </div>
-        </div>
-        {/* Carousel Slide 7 */}
-
-        {/* Carousel Slide 8 */}
-        <div
-          className={
-            activeTheme === 'light'
-              ? 'social-media-carousel-slide-light-theme'
-              : 'social-media-carousel-slide-dark-theme'
-          }
-        >
-          <img
-            className="social-media-carousel-slide-logo"
-            src={GitHubIcon}
-            alt="GitHub"
-          />
-          <div className="social-media-carousel-slide-content">
-            <h1>GitHub</h1>
-
-            <p>
-              GitHub is the place where I store all of my programming related
-              projects. It is an online repository where us developers store our
-              codebases. Check out my projects.
-            </p>
-            <a
-              href="https://github.com/andrewbaisden"
-              rel="noopener noreferrer"
-              target="_blank"
-              className={
-                activeTheme === 'light'
-                  ? 'carousel-button-light-theme'
-                  : 'carousel-button-dark-theme'
-              }
-            >
-              View Profile
-            </a>
-          </div>
-          <div className="social-media-carousel-slide-graphic">
-            <svg
-              width="100"
-              height="100"
-              viewBox="0 0 171 171"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M96.957 114C95.3839 114 94.1212 115.277 94.1212 116.85C94.1212 118.423 95.4123 119.7 96.9854 119.7C98.5615 119.7 99.8353 118.423 99.8353 116.85C99.8353 115.277 98.5615 114 96.9854 114H96.957Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M105.45 79.7999C103.891 79.7999 102.64 81.054 102.62 82.6127C102.6 84.1745 103.856 85.46 105.415 85.4997C106.732 85.5338 108.3 86.0555 108.3 88.3496V91.1995C108.3 92.2909 108.434 100.328 112.25 105.216C108.354 108.938 108.3 113.751 108.3 114V122.55C108.3 124.841 106.735 125.365 105.421 125.399C103.859 125.414 102.6 126.685 102.6 128.249C102.6 129.822 103.876 131.099 105.45 131.099C108.887 131.099 114 128.822 114 122.549V113.999C114 113.959 114.048 110.038 118.124 108C119.09 107.515 119.7 106.529 119.7 105.449C119.7 104.369 119.09 103.383 118.124 102.899C115.029 101.354 114.008 94.3456 114 91.1995V88.3496C114 82.077 108.887 79.7999 105.45 79.7999Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M156.75 39.9001H128.25C123.536 39.9001 119.7 36.064 119.7 31.3501V17.1C119.7 15.5269 118.423 14.2501 116.85 14.2501C115.277 14.2501 114 15.5269 114 17.1V31.3501C114 39.2074 120.393 45.6002 128.25 45.6002H153.9V156.75C153.9 161.464 150.064 165.3 145.35 165.3H25.65C20.9362 165.3 17.1 161.464 17.1 156.75V14.2501C17.1 9.53626 20.9362 5.70011 25.65 5.70011H115.67L143.335 33.365C144.45 34.4795 146.251 34.4795 147.365 33.365C148.479 32.2509 148.479 30.4494 147.365 29.3352L118.865 0.834961C118.332 0.29925 117.605 0 116.85 0H25.65C17.7927 0 11.3999 6.39246 11.3999 14.2501V156.75C11.3999 164.608 17.7927 171 25.65 171H145.35C153.207 171 159.6 164.608 159.6 156.75V42.75C159.6 41.1769 158.323 39.9001 156.75 39.9001Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M65.5785 85.5001C67.1402 85.4857 68.4 84.2146 68.4 82.6502C68.4 81.0771 67.1232 79.8003 65.5501 79.8003C62.1131 79.8003 57.0001 82.0774 57.0001 88.3503L57.9149 89.1084C57.3535 89.6271 57.0001 90.3709 57.0001 91.2002C57.0001 94.3466 55.9912 101.343 52.8761 102.899C51.9099 103.384 51.3 104.37 51.3 105.45C51.3 106.53 51.9099 107.516 52.8761 108.001C56.8575 109.99 56.9971 113.869 57.0001 114V122.55C57.0001 128.823 62.1131 131.1 65.5501 131.1C67.1092 131.1 68.3603 129.846 68.3803 128.287C68.4003 126.725 67.1436 125.44 65.5845 125.4C64.268 125.366 62.7002 124.844 62.7002 122.55V114C62.7002 113.752 62.6461 108.939 58.7502 105.216C61.6659 101.483 62.4324 95.914 62.6318 93.0044L62.7002 93.0615V91.2005C62.7002 90.3712 62.3469 89.6274 61.7855 89.1088L62.7002 88.3506C62.6999 86.0588 64.2646 85.5341 65.5785 85.5001Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M85.5571 114C83.984 114 82.7213 115.277 82.7213 116.85C82.7213 118.423 84.0124 119.7 85.5855 119.7C87.1586 119.7 88.4354 118.423 88.4354 116.85C88.4354 115.277 87.1586 114 85.5855 114H85.5571Z"
-                fill="#EDF2FA"
-              />
-              <path
-                d="M74.1569 114C72.5838 114 71.321 115.277 71.321 116.85C71.321 118.423 72.6122 119.7 74.1853 119.7C75.7584 119.7 77.0352 118.423 77.0352 116.85C77.0352 115.277 75.7584 114 74.1853 114H74.1569Z"
-                fill="#EDF2FA"
-              />
-            </svg>
-          </div>
-        </div>
-        {/* Carousel Slide 8 */}
       </Carousel>
     </>
   );
