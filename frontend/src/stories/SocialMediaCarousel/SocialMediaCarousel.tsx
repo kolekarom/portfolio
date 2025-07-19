@@ -103,7 +103,7 @@ export const SocialMediaCarousel = ({ ...props }: SocialMediaCarouselProps) => {
               connections open up so many career doors.
             </p>
             <a
-              href="https://www.linkedin.com/in/omkolekar/"
+              href="https://www.linkedin.com/in/om-kolekar/"
               rel="noopener noreferrer"
               target="_blank"
               className={

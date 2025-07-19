@@ -6,14 +6,12 @@ import './Header.css';
 interface Headerprops {
   homeRef: any;
   aboutRef: any;
-  scoialMediaRef: any;
   skillsRef: any;
   contactRef: any;
 }
 
 export const Header = ({
   aboutRef,
-  scoialMediaRef,
   skillsRef,
   contactRef,
   homeRef,
@@ -64,24 +62,6 @@ export const Header = ({
                 About
               </a>
               <a
-                href="#socialmedia"
-                rel="noopener noreferrer"
-                onClick={() => {
-                  handleScroll(scoialMediaRef.current);
-                }}
-              >
-                Social Media
-              </a>
-              <a
-                href="#skills"
-                rel="noopener noreferrer"
-                onClick={() => {
-                  handleScroll(skillsRef.current);
-                }}
-              >
-                Projects
-              </a>
-              <a
                 href="#skills"
                 rel="noopener noreferrer"
                 onClick={() => {
@@ -97,7 +77,7 @@ export const Header = ({
                   handleScroll(skillsRef.current);
                 }}
               >
-                Projects
+                Skills
               </a>
               <a
                 href="#contact"
@@ -179,17 +159,6 @@ export const Header = ({
                   }}
                 >
                   About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#socialmedia"
-                  rel="noopener noreferrer"
-                  onClick={() => {
-                    handleScroll(scoialMediaRef.current);
-                  }}
-                >
-                  Social Media
                 </a>
               </li>
               <li>
