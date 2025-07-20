@@ -6,10 +6,10 @@ export const AboutProfileText = ({ ...props }: AboutProfileTextProps) => {
   const styles = {
     container: {
       width: '100%',
-      maxWidth: '1200px',
+      // maxWidth: '1200px',
       margin: '2rem auto',
       padding: '2rem',
-      backgroundColor: '#f9f9f9',
+      backgroundColor: '#e0f7ff',
       borderRadius: '16px',
       boxShadow: '0 8px 20px rgba(0,0,0,0.1)',
       fontFamily: 'Arial, sans-serif',
@@ -33,17 +33,18 @@ export const AboutProfileText = ({ ...props }: AboutProfileTextProps) => {
     <article style={styles.container}>
       <h2 style={styles.headingMain}>👋 About Me</h2>
       <p style={styles.paragraph}>
-        I am Om Kolekar, a tech enthusiast and software developer based in Solapur, India 🇮🇳. My primary objective is to build innovative and scalable digital solutions that solve real-world problems, especially in the areas of web development and cloud computing. I believe in continuous learning and love exploring new technologies that push the boundaries of what's possible.
-      </p>
-      <p style={styles.paragraph}>
-        Personally, I am someone who enjoys blending logic with creativity. I speak English, Hindi, and Marathi fluently, and I have a strong sense of discipline and teamwork nurtured through my academic and physical training. Fitness is a huge part of my life — I love working out and playing football. Philosophy, too, holds a special place in my heart — I often find myself reflecting on deep concepts in my free time.
-      </p>
-      <p style={styles.paragraph}>
-        In the future, I aim to contribute to the tech industry not just as a developer but as a mentor and leader. I plan to dive deeper into DevOps, AI, and system design while also sharing knowledge through content creation and open-source collaboration. The long-term dream? To launch a startup that brings together wellness, education, and tech 🚀.
-      </p>
-      <p style={{ ...styles.paragraph, textAlign: 'center', fontWeight: 'bold', color: '#2980b9' }}>
-        Peace out ✌🏿
-      </p>
+  I'm Om Kolekar — a tech enthusiast and software developer from Solapur, India 🇮🇳. I focus on building scalable web and cloud solutions, and I’m always exploring new technologies to solve real-world problems.
+</p>
+<p style={styles.paragraph}>
+  I blend logic with creativity, speak English, Hindi, and Marathi, and thrive on teamwork and discipline. Outside of tech, I stay active through workouts, football, and deep philosophical thinking.
+</p>
+<p style={styles.paragraph}>
+  My vision is to grow as a tech leader and mentor, diving deeper into DevOps, AI, and system design — with the ultimate goal of launching a startup that unites wellness, education, and innovation 🚀.
+</p>
+<p style={{ ...styles.paragraph, textAlign: 'center', fontWeight: 'bold', color: '#2980b9' }}>
+  Peace out ✌🏿
+</p>
+
     </article>
   );
 };

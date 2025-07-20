@@ -15,7 +15,7 @@ const projects: Project[] = [
   {
     title: "Movie Explorer",
     description: "Full-stack online shopping platform",
-    techStack: ["React 18", "Node.js", "MongoDB", "Axios" , "Redux Toolkit"],
+    techStack: ["React 18","Node.js","MongoDB","Axios","Redux Toolkit"],
     imageUrl: "/movie.png",
     githubLink: "https://github.com/kolekarom/search-movie",
     demoLink: "https://search-movie-gold-gamma.vercel.app/"
@@ -23,7 +23,7 @@ const projects: Project[] = [
     {
       title: "Portfolio Website",
       description: "A modern portfolio built with React and TypeScript",
-      techStack: ["React", "TypeScript", "Vite"],
+      techStack: ["React", "TypeScript", "Vite" , "CSS3"],
       imageUrl: "/portfolio.png", // this should exist in /public/img/pro_img/
       githubLink: "https://github.com/kolekarom/portfolio", // ✅
       demoLink: "https://portfolio-beige-six-45.vercel.app/"
@@ -31,7 +31,7 @@ const projects: Project[] = [
     {
       title: "JourneyMate",
       description: "🌍 JourneyMate – Plan, organize, and track your travel itinerary easily.",
-      techStack: ["Next.js", "Prisma", "Tailwind"],
+      techStack: ["Html", "CSS", "JavaScript","mysql","API","NodeJs"],
       imageUrl: "/journeymate.png",
       githubLink: "https://github.com/kolekarom/JourneyMate",
       demoLink: "https://journey-mate-umber.vercel.app/"
@@ -40,7 +40,7 @@ const projects: Project[] = [
     {
       title: "Apex English School Website",
       description: "🎓Apex English School Website – Showcases school info. ",
-      techStack: ["React", "Chart.js", "Node.js"],
+      techStack: ["ReactJs", "EmailJs", "Node.js","Tailwind-CSS"],
       imageUrl: "/school.png",
       githubLink: "https://github.com/rehansw00/AES-Website-Project",
       demoLink: "https://apexenglishschoolpatoda.vercel.app/"
@@ -48,7 +48,7 @@ const projects: Project[] = [
     {
       title: "weather-app",
       description: "⛅ Real-time weather information with location-based forecasts.",
-      techStack: ["React Native", "Firebase"],
+      techStack: ["Html","CSS","javaScript", "OpenWeather API"],
       imageUrl: "/weatherApp.png",
       githubLink: "https://github.com/kolekarom/weather-app",
       demoLink: "https://weatherforcasting-tawny.vercel.app/"
@@ -56,7 +56,7 @@ const projects: Project[] = [
     {
       title: "get-job",
       description: "💼 Track your job application with real-time status, updates, and insights.",
-      techStack: ["React", "OpenWeather API"],
+      techStack: ["ReactJs", "Tailwind-CSS","API","NodeJs"],
       imageUrl: "/getjob.png",
       githubLink: "https://github.com/kolekarom/get-job",
       demoLink: "https://get-job-beige.vercel.app/"
@@ -100,7 +100,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className={`project-button ${activeTheme === 'light' ? 'light-theme' : 'dark-theme'}`}
                   >
-                    Demo
+                   Live Demo
                   </a>
                 )}
               </div>
