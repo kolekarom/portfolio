@@ -2,11 +2,12 @@
   padding: 4rem 2rem;
   background-color: var(--bg-color);
   color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .projects-section h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
   margin-bottom: 3rem;
   color: var(--primary-color);
 }
@@ -23,12 +24,18 @@
   background-color: var(--card-bg);
   border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(211, 193, 193, 0.1);
+  border: 1px solid #eee;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-theme="dark"] .project-card {
+  border: none;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .project-image {
@@ -43,11 +50,11 @@
 }
 
 .project-content {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .project-content h3 {
-  font-size: 1.5rem;
+  font-size: clamp(1.25rem, 4vw, 1.5rem);
   margin-bottom: 1rem;
   color: var(--accent-color);
 }
@@ -87,7 +94,7 @@
   font-weight: 500;
   text-transform: uppercase;
   font-size: 0.875rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
 .project-button.light-theme {
@@ -102,6 +109,11 @@
 
 .project-button:hover {
   opacity: 0.9;
+}
+
+.project-button:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
 }
 
 /* Theme variables */

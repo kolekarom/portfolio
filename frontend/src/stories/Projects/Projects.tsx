@@ -13,54 +13,56 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Portfolio Website",
-    description: "A modern portfolio built with React and TypeScript",
-    techStack: ["React", "TypeScript", "Vite"],
-    imageUrl: "/project-1.png",
-    githubLink: "https://github.com/kolekarom/portfolio",
-    demoLink: "https://kolekarom.github.io/portfolio/"
-  },
-  {
-    title: "Blog Platform",
-    description: "A content management system for writers",
-    techStack: ["Next.js", "Prisma", "Tailwind"],
-    imageUrl: "/project-2.png",
-    githubLink: "https://github.com/kolekarom/blog-platform",
-    demoLink: "https://blog-platform.kolekarom.com"
-  },
-  {
-    title: "E-commerce Store",
+    title: "Movie Explorer",
     description: "Full-stack online shopping platform",
-    techStack: ["React", "Node.js", "MongoDB"],
-    imageUrl: "/project-3.png",
-    githubLink: "https://github.com/kolekarom/ecommerce",
-    demoLink: "https://store.kolekarom.com"
+    techStack: ["React 18", "Node.js", "MongoDB", "Axios" , "Redux Toolkit"],
+    imageUrl: "/movie.png",
+    githubLink: "https://github.com/kolekarom/search-movie",
+    demoLink: "https://search-movie-gold-gamma.vercel.app/"
   },
-  {
-    title: "Social Media Dashboard",
-    description: "Analytics and metrics tracking",
-    techStack: ["React", "Chart.js", "Node.js"],
-    imageUrl: "/project-4.png",
-    githubLink: "https://github.com/kolekarom/social-dashboard",
-    demoLink: "https://social-dashboard.kolekarom.com"
-  },
-  {
-    title: "Fitness Tracker",
-    description: "Mobile-first workout logging app",
-    techStack: ["React Native", "Firebase"],
-    imageUrl: "/project-5.png",
-    githubLink: "https://github.com/kolekarom/fitness-tracker",
-    demoLink: "https://fitness-tracker.kolekarom.com"
-  },
-  {
-    title: "Weather App",
-    description: "Real-time weather information",
-    techStack: ["React", "OpenWeather API"],
-    imageUrl: "/project-6.png",
-    githubLink: "https://github.com/kolekarom/weather-app",
-    demoLink: "https://weather.kolekarom.com"
-  }
-];
+    {
+      title: "Portfolio Website",
+      description: "A modern portfolio built with React and TypeScript",
+      techStack: ["React", "TypeScript", "Vite"],
+      imageUrl: "/portfolio.png", // this should exist in /public/img/pro_img/
+      githubLink: "https://github.com/kolekarom/portfolio", // ✅
+      demoLink: "https://portfolio-beige-six-45.vercel.app/"
+    },
+    {
+      title: "JourneyMate",
+      description: "🌍 JourneyMate – Plan, organize, and track your travel itinerary easily.",
+      techStack: ["Next.js", "Prisma", "Tailwind"],
+      imageUrl: "/journeymate.png",
+      githubLink: "https://github.com/kolekarom/JourneyMate",
+      demoLink: "https://journey-mate-umber.vercel.app/"
+    },
+  
+    {
+      title: "Apex English School Website",
+      description: "🎓Apex English School Website – Showcases school info. ",
+      techStack: ["React", "Chart.js", "Node.js"],
+      imageUrl: "/school.png",
+      githubLink: "https://github.com/rehansw00/AES-Website-Project",
+      demoLink: "https://apexenglishschoolpatoda.vercel.app/"
+    },
+    {
+      title: "weather-app",
+      description: "⛅ Real-time weather information with location-based forecasts.",
+      techStack: ["React Native", "Firebase"],
+      imageUrl: "/weatherApp.png",
+      githubLink: "https://github.com/kolekarom/weather-app",
+      demoLink: "https://weatherforcasting-tawny.vercel.app/"
+    },
+    {
+      title: "get-job",
+      description: "💼 Track your job application with real-time status, updates, and insights.",
+      techStack: ["React", "OpenWeather API"],
+      imageUrl: "/getjob.png",
+      githubLink: "https://github.com/kolekarom/get-job",
+      demoLink: "https://get-job-beige.vercel.app/"
+    }
+  ];
+  
 
 export const Projects = () => {
   const { activeTheme } = useTheme();

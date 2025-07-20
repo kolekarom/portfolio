@@ -7,12 +7,14 @@ interface Headerprops {
   homeRef: any;
   aboutRef: any;
   skillsRef: any;
+  projectsRef: any;
   contactRef: any;
 }
 
 export const Header = ({
   aboutRef,
   skillsRef,
+  projectsRef,
   contactRef,
   homeRef,
   ...props
@@ -74,10 +76,10 @@ export const Header = ({
                 href="#skills"
                 rel="noopener noreferrer"
                 onClick={() => {
-                  handleScroll(skillsRef.current);
+                  handleScroll(projectsRef.current);
                 }}
               >
-                Skills
+                Projects
               </a>
               <a
                 href="#contact"
@@ -170,6 +172,17 @@ export const Header = ({
                   }}
                 >
                   Skills
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  rel="noopener noreferrer"
+                  onClick={() => {
+                    handleScroll(projectsRef.current);
+                  }}
+                >
+                  Projects
                 </a>
               </li>
               <li>
