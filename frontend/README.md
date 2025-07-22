@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Personal Portfolio Website
+
+Welcome to my personal portfolio website - a modern, responsive, and interactive digital showcase of my skills, projects, and professional journey. Built with React and TypeScript, this portfolio is designed to provide a seamless and engaging experience for visitors while highlighting my technical capabilities and creative vision.
+
+## 🎨 Project Overview
+
+This portfolio website is crafted to be more than just a static resume - it's an interactive showcase of my technical journey and capabilities. Key features include:
+
+- 🎯 Responsive design that works perfectly on all devices
+- 🎨 Modern UI/UX with smooth animations and transitions
+- 📚 Comprehensive project showcase with detailed descriptions and live demos
+- 📱 Interactive social media integration
+- 📊 Skills and expertise visualization
+- 📝 Professional bio and contact information
+
+## 🚀 Technical Stack
+
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Create React App
+- **UI Components**: Custom components with modern styling
+- **State Management**: React Context API
+- **Animations**: Framer Motion
+- **Deployment**: Vite for optimal performance
+
+## 🛠️ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
