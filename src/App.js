@@ -7,17 +7,19 @@ const TICKER = ["React Developer","◆","Full Stack","◆","Open Source","◆","
 
 const SKILLS = [
   { icon:"◈", cat:"Frontend",  tags:["React","Next.js","JavaScript","HTML5","CSS3","Tailwind"] },
-  { icon:"◉", cat:"Backend",   tags:["Node.js","Express","Ruby","REST APIs"] },
+  { icon:"◉", cat:"Backend",   tags:["Node.js","Express",,"REST APIs"] },
   { icon:"◍", cat:"Database",  tags:["MongoDB","PostgreSQL","Firebase","MySQL"] },
   { icon:"◎", cat:"DevOps",    tags:["Git","GitHub","Vercel","Docker","Linux"] },
-  { icon:"◆", cat:"Languages", tags:["JavaScript","Ruby","Python","C++"] },
+  { icon:"◆", cat:"Languages", tags:["JavaScript","Python","C++","Java"] },
   { icon:"◇", cat:"Tools",     tags:["VS Code","Postman","Figma","npm"] },
+  { icon:"✦", cat:"AI Tools", tags:["ChatGPT","GitHub Copilot","Claude","Gemini"] },
+
 ];
 
 const EXP = [
   { role:"Full Stack Developer",    co:"Freelance / Personal Projects", period:"2022 — PRESENT", desc:"Building full-stack web applications using React, Node.js, and modern deployment tools. Delivered boutique e-commerce platforms, launcher tools, and CMS systems deployed on Vercel." },
   { role:"Open Source Contributor", co:"GitHub",                        period:"2021 — PRESENT", desc:"Actively contributing to and maintaining open-source repositories. Collaborated on Ruby, JavaScript, and CSS-based projects. Maintaining 17+ repositories across diverse tech stacks." },
-  { role:"DSA & Competitive Prog.", co:"LeetCode",                      period:"2023 — PRESENT", desc:"Solved 150+ problems across Easy, Medium, and Hard levels. Consistently practicing data structures and algorithms to strengthen problem-solving fundamentals." },
+  { role:"DSA & Competitive Prog.", co:"LeetCode",                      period:"2023 — PRESENT", desc:"Solved 200+ problems across Easy, Medium, and Hard levels. Consistently practicing data structures and algorithms to strengthen problem-solving fundamentals." },
 ];
 
 const CONTACTS = [
@@ -300,12 +302,43 @@ function About() {
           <div className="chips">
             {["React.js","Node.js","JavaScript","Full-Stack","DSA","Open Source"].map(c => <span className="chip" key={c}>{c}</span>)}
           </div>
-          <div className="slinks">
-            <a href={`https://github.com/${GH}`} target="_blank" rel="noreferrer" className="sln">⌥ GitHub</a>
-            <a href="https://www.linkedin.com/in/kolekarom" target="_blank" rel="noreferrer" className="sln">in LinkedIn</a>
-            <a href="https://leetcode.com/u/kolekarom/" target="_blank" rel="noreferrer" className="sln">⊕ LeetCode</a>
-            <a href="https://vercel.com/oms-projects-33c3352f" target="_blank" rel="noreferrer" className="sln">▲ Vercel</a>
-          </div>
+         <div className="slinks">
+  <a
+    href="https://github.com/kolekarom"
+    target="_blank"
+    rel="noreferrer"
+    className="sln"
+  >
+    ⌥ GitHub
+  </a>
+
+  <a
+  href="https://www.linkedin.com/in/kolekarom"
+  target="_blank"
+  rel="noreferrer"
+  className="sln"
+>
+  in LinkedIn
+</a>
+
+  <a
+    href="https://leetcode.com/u/kolekarom/"
+    target="_blank"
+    rel="noreferrer"
+    className="sln"
+  >
+    ⊕ LeetCode
+  </a>
+
+  <a
+    href="https://vercel.com/oms-projects-33c3352f"
+    target="_blank"
+    rel="noreferrer"
+    className="sln"
+  >
+    ▲ Vercel
+  </a>
+</div>
         </div>
       </div>
     </section>
@@ -402,9 +435,9 @@ function Projects({ onLoad }) {
 /* ── LeetCode ────────────────────────────────────────────────────────────────── */
 function LeetCode() {
   const bars = [
-    { label: "Easy",   count: 80, pct: "53%", color: "var(--g)" },
-    { label: "Medium", count: 55, pct: "37%", color: "var(--a)" },
-    { label: "Hard",   count: 15, pct: "10%", color: "var(--a2)" },
+    { label: "Easy",   count: 120, pct: "53%", color: "var(--g)" },
+    { label: "Medium", count: 75, pct: "37%", color: "var(--a)" },
+    { label: "Hard",   count: 20, pct: "10%", color: "var(--a2)" },
   ];
   return (
     <section id="leetcode" className="sec">
@@ -413,7 +446,7 @@ function LeetCode() {
       <p className="sdesc rv">Sharpening algorithmic thinking — one problem at a time.</p>
       <div className="lgrid">
         <div className="lcard rv">
-          <div className="lbig">150+</div>
+          <div className="lbig">250+</div>
           <div className="llbl">Problems Solved</div>
           <div className="lcts">
             {bars.map(b => (
@@ -543,7 +576,7 @@ export default function App() {
         <Contact />
       </main>
       <footer>
-        <span>© 2025 Om Kolekar</span> &nbsp;—&nbsp; Built with React + ❤ &nbsp;◆&nbsp; Deployed on Vercel
+        <span>© 2026 Om Kolekar</span> &nbsp;—&nbsp; Built with React + ❤ &nbsp;◆&nbsp; Deployed on Vercel
       </footer>
     </>
   );
