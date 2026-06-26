@@ -218,7 +218,7 @@ https://linkedin.com/in/your-linkedin
 
 Email
 
-yourmail@example.com
+omkolekar72@example.com
 
 ---
 
